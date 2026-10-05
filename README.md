@@ -31,8 +31,7 @@ GitHub Actions 워크플로(`.github/workflows/`), 그리고 CodeRabbit 설정
 
 ## CodeRabbit (AI PR 리뷰) 설정 — 무료(public 레포)
 
-Yorkie의 PR 템플릿이 가리키는 그 리뷰어입니다. **설정 파일은 필요 없고**,
-org에 GitHub App 한 번만 설치하면 기본값으로 동작합니다.
+**설정 파일은 필요 없고**, org에 GitHub App 한 번만 설치하면 기본값으로 동작합니다.
 
 1. https://coderabbit.ai → **Login with GitHub**
 2. `LINUX-DEEP-DIVE` org에 App 설치. public 레포는 **CodeRabbit Pro 무료**.
@@ -40,5 +39,3 @@ org에 GitHub App 한 번만 설치하면 기본값으로 동작합니다.
 4. (선택) 리뷰 톤·언어 등을 바꾸고 싶으면 해당 **코드 레포**(이 `.github` 레포가
    아니라)에 `.coderabbit.yaml`을 추가. org 전체 기본값은 CodeRabbit 대시보드에서.
 
-> 참고: "Yorkie team agent"(`@claude` 리뷰 패널 파이프라인)는 `ANTHROPIC_API_KEY`
-> 과금이 필요해 무료가 아니고, 스터디 레포엔 과합니다. 그래서 CodeRabbit만 채택.
